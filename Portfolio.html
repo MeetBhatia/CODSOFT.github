@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<style>
+
+body{
+        margin: 0%;
+        
+    }
+    #links{
+    display: inline-flex;
+    list-style-type: none;
+    position: relative;
+    margin-top: 2%;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   
+}
+
+#logo{
+  color: black;
+    width: 700px;
+    margin-left: 5%;
+}
+#logo2{
+    color:#c49b66;
+}
+#block{
+display: inline-flex;
+width: 100%;
+top: 0px;
+background-color: white;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #c49b66;
+}
+li{
+    /* padding-left: 5%; */
+    margin-left: 15%;
+}
+#about{
+        width: 90%;
+        height: 100%;
+        padding-left: 20px;
+        margin-left: 2%;
+        display:flex;
+        text-align: center;
+        
+    }
+    .brown{
+     color: #c49b66;
+    
+     
+    }
+
+    * {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border-radius: 10px;
+}
+
+.html {width: 90%; background-color:brown;}
+.css {width: 80%; background-color:cadetblue;}
+.js {width: 70%; background-color:crimson;}
+.java {width: 60%; background-color:darkgreen;}
+.c {width: 80%; background-color:cornflowerblue;}
+
+#skill{
+    width: 90%;
+        height: 100%;
+        padding-left: 20px;
+        margin-left: 2%;
+        text-align: center;
+}
+#project{
+    width: 90%;
+        height: 100%;
+        padding-left: 20px;
+        margin-left: 2%;
+        text-align: center;
+}
+#box{
+        height: 100%;
+        width: 90%;
+        padding-left: 50px;
+        margin-left: 2%;
+        display:flex
+        
+    }
+    #i,#ii,#iii{
+        height: 100%;
+        width: 30%;
+        padding: 10px;
+        margin-left: 3%;
+border-radius: 10px;
+       
+    }
+    .img-hover-zoom {
+  height: 300px; 
+  overflow: hidden; 
+}
+
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.1);
+}
+#foot{
+  
+  height: 360px;
+  bottom: 0;
+width: 100%;
+background-color:white;
+
+}
+#contact{
+    height: 100%;
+        width: 90%;
+        padding-left: 20px;
+        margin-left: 2%;
+        display:flex;
+        padding-left: 20px;
+}
+#links2{
+   
+   margin-left: 50px;
+   height: 200px;
+   width: 90px;
+   font-size: larger;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  
+}
+#resume{
+    width: 90%;
+        height: 100%;
+        padding-left: 20px;
+        margin-left: 2%;
+        text-align: center;
+}
+#dwnld{
+height: 70px;
+width: 200px;
+border-radius: 10px;
+border: 2px solid #c49b66 ;
+font-size: larger;
+font-weight: 600;
+font-family: 'Times New Roman', Times, serif;
+}
+#dwnld:hover{
+    height: 70px; 
+  overflow: hidden; 
+  transition: transform .5s ease;
+  transform: scale(1.1);
+}
+</style>
+<body>
+   <!--- Navbar Start -->
+  <div id="block">
+    <h1 id="logo">Meet <span id="logo2">Bhatia</span></h1>
+    <ul id="links">
+        <li><a href="Portfolio.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div><br><br><br>
+
+    <!--- Navbar Ends -->
+
+    <!--Header Start-->
+    <div>
+        <div id="about" >
+            <h2>Hi I am <span class="brown" > Meet</span></h2> 
+        </div>
+        <div id="about" >
+<h3 style="text-align:justify; font-weight: normal; font-size:20px;font-family: 'Times New Roman', Times, serif;">I am a Web Developer with the good knowledge of HTML, CSS, BOOTSTRAP,  JAVASCRIPT, JQUERY ,C, C++. Currently I am pursuing my graduation in BCA(Bachelor's in Computer Applications) from Sh. L.N. Hindu College Affiliated  by Maharshi Dayanand University in Rohtak, Haryana.</h3>
+           <img style="margin-left: 10%; border-radius: 10px;"  src="Images/Me.jpg" alt="" height="350px" width="350px">
+        </div>
+        </div><br><br>
+
+ <!--Header End-->
+
+ <!---Skills Start-->
+ <div id="skill">
+    <h1>My <span class="brown" > Skills</span></h1>
+
+<p>HTML</p>
+<div class="container">
+  <div class="skills html">90%</div>
+</div>
+
+<p>CSS</p>
+<div class="container">
+  <div class="skills css">80%</div>
+</div>
+
+<p>JavaScript</p>
+<div class="container">
+  <div class="skills js">70%</div>
+</div>
+
+<p>C/C++</p>
+<div class="container">
+  <div class="skills c">80%</div>
+</div>
+
+<p>JAVA</p>
+<div class="container">
+  <div class="skills java">60%</div>
+</div>
+
+ </div><br><br>
+ <!---Skill End-->
+ <!---Project Start-->
+ <div id="project">
+    <h1>My <span class="brown" > Projects</span></h1>
+ </div>
+
+ <div id="box">
+    <div class="img-hover-zoom" id="i">
+     
+       <a id="pro" target=" " href="https://meetbhatia.github.io/Apple-clone.github/">
+        <img src="Images/Apple.png" alt="" height="250px" width="300px" > 
+       </a>
+       <h2>Apple Clone</h2>
+       <a href="https://meetbhatia.github.io/Apple-clone.github/" class="butn butn-bord" target="_blank">
+        <button id="dwnld">Visit Site</button>
+       
+</div>
+    <div class="img-hover-zoom" id="ii">
+        <a id="pro" target=" " href="https://meetbhatia.github.io/project.github.io/login.html">
+            <img src="Images/login (1).png" alt="" height="250px" width="300px" > 
+           </a>
+        <h2>LogIn And SignUp Page</h2>
+        <a href="https://meetbhatia.github.io/project.github.io/login.html" class="butn butn-bord" target="_blank">
+            <button id="dwnld">Visit Site</button>
+        
+</div>
+    <div class="img-hover-zoom" id="iii">
+        
+        <a id="pro" target=" " href="https://meetbhatia.github.io/Bitcoin.github/">
+            <img src="Images/bitcoin.png" alt="" height="250px" width="300px" > 
+           </a>
+        <h2>Bitcoin Price Checker</h2>
+        <a href="https://meetbhatia.github.io/Bitcoin.github/" class="butn butn-bord" target="_blank">
+            <button id="dwnld">Visit Site</button>
+        
+ </div>
+</div><br><br>
+<!--Project End-->
+<!---Resume-->
+    <div id="project">
+        <h1>My <span class="brown" > Resume</span></h1>
+        <a href="Meet Bhatia Resume .pdf" class="butn butn-bord" target="_blank">
+                                   <button id="dwnld">Download Resume</button>
+     </div><br><br><br>
+<!---Resume-->
+<!--Contact Start-->
+<footer id="foot">
+    <div id="contact" style="display: inline-flex;">
+    <div style="width: 50%;">
+    <div id="block">
+        <h1 id="logo">Meet <span id="logo2">Bhatia</span></h1>
+      </div>
+      <ul id="links2">
+        <li><a href="Portfolio.html">Home</a></li><br>
+        <li><a href="#about">About</a></li><br>
+        <li><a href="#skill">Skills</a></li><br>
+        <li><a href="#project">Projects</a></li><br>
+        <li><a href="#contact">Contact</a></li><br>
+    </ul>
+</div>
+
+<div  style="width: 400px;">
+    <div id="block">
+        <h1 id="logo">Contact <span id="logo2">Me</span></h1>
+      </div>
+      <ul id="links2" style="width: 100%;list-style:none">
+        <li><img src="Images/call.jpeg" height="20px" width="20px" alt=""> <a href="tel:+917404134365">+91 74041-34365</a></li><br>
+        <li><img src="Images/mail.jpeg" height="20px" width="20px" alt=""> <a href="meetbhatia770@gmail.com">meetbhatia770@gmail.com</a></li>
+        <li><p><img src="Images/location.png" height="20px" width="20px" alt=""> Rohtak,Haryana,India</p></li>
+        <li><a target="_blank" href="https://github.com/MeetBhatia"><img src="Images/github.png" height="30px" width="30px" alt=""></a>
+            <a target="_blank" href="https://www.linkedin.com/in/meet-bhatia-81972b248/"><img src="Images/linked.png" height="30px" width="30px" alt=""></a>
+            <a target="_blank" href="https://www.facebook.com/meet.bhatia.948/"><img src="Images/facebook.png" height="30px" width="30px" alt=""></a>
+            <a target="_blank" href="https://www.instagram.com/meet4327/"><img src="Images/insta.png" height="35px" width="35px" alt=""></a>
+        </li>
+        <br>
+        <br>
+    </ul>
+</div>
+</div>
+<p style="font-size: larger;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;text-align: center;background-color: rgb(255, 255, 255);margin-top: 0%;
+">© 2023 Meet Bhatia. All rights reserved</p>  
+ </footer>
+<!--Contact End-->
+</body>
+</html>
